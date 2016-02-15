@@ -1,3 +1,4 @@
+package src;
 
 /**
  * This Class is defined for making Contact Objects
@@ -7,7 +8,6 @@
  */
 
 public class Contact {
-	public int type;
 	public String name;
 	public String mobile;
 	public String email;
@@ -23,7 +23,6 @@ public class Contact {
 	
 	public Contact(String name,String mobile,String email)
 	{
-		this.type=1;
 		this.name=name;
 		this.mobile=mobile;
 		this.email=email;
@@ -37,7 +36,6 @@ public class Contact {
 	
 	public Contact()
 	{
-		this.type=1;
 		this.name=null;
 		this.mobile=null;
 		this.email=null;
